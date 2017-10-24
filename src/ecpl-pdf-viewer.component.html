@@ -1,0 +1,16 @@
+<a href="javascript:void(0)" (click)="showModal()" id="pdf-file-{{id}}">
+  <img src="/src/images/pdf.png" alt="Pdf File">
+</a>
+
+<div class="pdf-modal" *ngIf="showModalWindow" id="pdf-file-{{id}}">
+  <div class="modal-dialog">
+    <div class="modal-header">
+        <img src="/src/images/pdf.png" alt="Pdf File" class="pdf-icon-header pull-left"> <h3 class="pull-left">{{pdfName}}</h3>     <button (click)="hideModal()" class="pull-right">x</button>
+    </div>
+    <div class="modal-body" id="pdf-pop-{{id}}">
+        <pdf-viewer [src]="pdfSrc"
+        [render-text]="true"
+        style="display: block;"></pdf-viewer>
+    </div>
+  </div>
+</div>
