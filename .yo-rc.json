@@ -1,0 +1,14 @@
+{
+  "generator-angular-library": {
+    "githubUsername": "shameed",
+    "githubRepoName": "ecpl-pdf-viewer",
+    "npmModuleName": "ecpl-pdf-viewer",
+    "moduleGlobal": "ecplPdfViewer",
+    "ngModuleName": "EcplPdfViewerModule",
+    "selectorPrefix": "ecpl",
+    "projectTitle": "Ecpl Pdf Viewer",
+    "projectDescription": "Angular4 library for pdf viewer in a popup",
+    "authorName": "Hameed",
+    "packageManager": "npm"
+  }
+}
